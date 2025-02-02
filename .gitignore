@@ -1,0 +1,23 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar carpetas __pycache__ y archivos .pyc
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de compilación
+*.o
+*.so
+*.a
+*.out
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
