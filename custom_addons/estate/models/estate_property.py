@@ -34,3 +34,7 @@ class EstateProperty(models.Model):
 
     # Una propiedad puede tener un solo tipo
     property_type_id = fields.Many2one('estate.property.type')
+
+    # Vendedor y el comprador de la propiedad
+    buyer_id = fields.Many2one('res.partner', copy=False)
+    saleman_id = fields.Many2one('res.users', default=lambda self: self.env.user)
