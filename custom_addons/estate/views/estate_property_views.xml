@@ -66,6 +66,16 @@
                             </group>
                         </page>
 
+                        <page string="Offers">
+                            <field name="offer_ids" mode="list,form" widget="one2many_list">
+                                <list>
+                                    <field name="price"/>
+                                    <field name="partner_id"/>
+                                    <field name="status"/>
+                                </list>
+                            </field>                            
+                        </page>
+
                         <page string="Other Info">
                             <group>
                                 <field name="buyer_id"/>
